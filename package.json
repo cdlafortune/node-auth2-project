@@ -1,0 +1,24 @@
+{
+  "name": "auth2-project",
+  "version": "1.0.0",
+  "description": "JWT project",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdlafortune/node-auth2-project.git"
+  },
+  "author": "Cris LaFortune",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdlafortune/node-auth2-project/issues"
+  },
+  "homepage": "https://github.com/cdlafortune/node-auth2-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
