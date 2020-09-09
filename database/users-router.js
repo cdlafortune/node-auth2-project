@@ -2,7 +2,6 @@ const router = require('express').Router();
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const Users = require('./users-model');
-
 const restrict = require('../middleware/restrict');
 const validateUser = require('../middleware/validateUser');
 
@@ -36,7 +35,7 @@ router.post('/register', async (req, res, next) => {
     };
 });
 
-router.post('/login', validateUser, async (req, res, next) => {
+router.post('/login', async (req, res, next) => {
     try {
         const {username, password} = req.body;
 
